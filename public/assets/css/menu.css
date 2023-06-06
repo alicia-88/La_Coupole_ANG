@@ -14,7 +14,7 @@
     font-size: 3.2rem;
 }
 #menu h3 {
-    font-size: 2.4rem;
+    font-size: 3.6rem;
     color: var(--secondary-color);
     text-decoration: underline;
     font-family: dancingscript;
@@ -22,6 +22,7 @@
 }
 #menu li {
     list-style: inside;
+    font-size: 2rem;
 }
 #menu {
     display: flex;
@@ -43,10 +44,16 @@
     background-color: white;
 }
 .grid-photo figcaption{
+    white-space: nowrap;
     font-family: dancingscript;
     color: black;
     text-align: center;
     padding-bottom: 16px;
+    font-size: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 180px;
+    padding-left: 20px;
 }
 
 .grid-photo {
