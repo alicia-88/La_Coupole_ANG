@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* 
+
+    Author : Alicia
+    Date : 2023-06-03
+
+    Filename : style.css
+
+ */
+
+@import url(./reset.css);
+@import url(./basic.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./menu.css);
+@import url(./reservation.css);
+@import url(./contact.css);
+@import url(./photo.css);
+@import url(./footer.css);

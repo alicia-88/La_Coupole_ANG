@@ -1,0 +1,4 @@
+regular oswald 16px body
+regular dancing script 24px subtitle
+aladin 36px logo
+semi-bold oswald 20 link header

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* 
+
+    Author : Alicia
+    Date : 2023-06-05
+
+    Filename : photo.css
+
+ */
+
+ .flex-photo {
+    display: flex;
+    column-gap: 20px;
+    padding-bottom: 48px;
+ }
+ .flex-photo img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 10px solid white;
+ }
+ .flex-photo figure{
+    background-color: white;
+    flex: 1;
+}
+.flex-photo figcaption{
+    font-family: dancingscript;
+    color: black;
+    text-align: center;
+    padding-bottom: 16px;
+}

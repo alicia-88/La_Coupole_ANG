@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* 
+
+    Author : Alicia
+    Date : 2023-06-04
+
+    Filename : header.css
+
+ */
+ 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    column-gap: 48px;
+}
+header nav ul li {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.logo{
+    font-family: aladin;
+    font-size: 3.6rem;
+    background-color: var(--main-color);
+    padding: 8px 48px;
+}

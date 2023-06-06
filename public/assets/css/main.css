@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* 
+
+    Author : Alicia
+    Date : 2023-06-04
+
+    Filename : main.css
+
+ */
+main {
+  padding-block: 48px;
+  width: 60%;
+  margin-inline: auto;
+  text-align: center;
+}
+h1 {
+  font-weight: bold;
+  font-size: 6.4rem;
+  border-bottom: 5px solid var(--tertiary-color);
+  margin-inline: 30%;
+  padding-block-start: 48px;
+}
+main p {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  line-height: 3rem;
+  padding-block: 48px;
+  margin-inline: 20%;
+}

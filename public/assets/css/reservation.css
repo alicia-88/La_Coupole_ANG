@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/* 
+
+    Author : Alicia
+    Date : 2023-06-05
+
+    Filename : reservation.css
+
+ */
+
+#reservation {
+    display: flex;
+    column-gap: 20px;
+}
+
+#reservation>div {
+    flex: 1;
+}
+
+#reservation h2 {
+    background-color: var(--main-color);
+    font-weight: 500;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+#reservation form {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 96px;
+
+}
+
+#reservation form p {
+    padding-block-end: 24px;
+}
+#reservation form div {
+    padding-top:16px ;
+    text-align: right;
+}
+#reservation button {
+    border-style: none;
+    background-color: var(--tertiary-color);
+    color: white;
+    padding-inline: 16px;
+    cursor: pointer;
+}
+input, select{
+    padding: 8px;
+}
+input,
+textarea, select {
+    border: 2px solid var(--main-color);
+    
+}
+label {
+    padding-block:24px 8px;
+    color: var(--secondary-color);
+    text-decoration: underline;
+
+}
+textarea{
+    height: 50px;
+    resize: none;
+}
+
+.grid-box {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.box-v1 {
+    background-color: white;
+}
+
+.box-v2 {
+    background-color: var(--main-color)
+}
+
+.box-v3 {
+    background-color: var(--tertiary-color);
+}
+.box-v4{
+    background-color:var(--secondary-color);
+}

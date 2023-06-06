@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* 
+
+    Author : Alicia
+    Date : 2023-06-03
+
+    Filename : basic.css
+
+ */
+ 
+:root {
+  --main-color: #cc0066;
+  --secondary-color: #cccc99;
+  --tertiary-color: #0099cc;
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: DancingScript;
+  src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Aladin;
+  src: url(../fonts/Aladin-Regular.ttf);
+}
+
+html {
+  background-image: url(../img/la_coupole.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+body {
+  background-color: hsla(0, 0%, 0%, 0.8);
+  min-height: 100vh;
+  font-family: oswald;
+  font-size: 1.6rem;
+  padding-inline: 48px;
+}
+button {
+  font-family: oswald;
+  font-size: 2.4rem;
+}

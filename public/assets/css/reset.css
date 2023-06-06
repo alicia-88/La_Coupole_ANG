@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* 
+
+    Author : Alicia
+    Date : 2023-06-03
+
+    Filename : reset.css
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
